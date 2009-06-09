@@ -1,0 +1,42 @@
+
+* { padding: 1px; }
+
+#main {
+	margin: 20px auto;
+	border: 1px dotted silver;
+	width: 800px;
+	padding: 20px;
+}
+
+#inputs {
+	width: 200px;
+	float: left;
+}
+
+#camera {
+	width: 400px;
+	float: left;
+}
+
+div.cam {
+	float: left;
+}
+
+#move_x {
+	clear: both;
+}
+
+table {
+	margin: 0;
+	width: 100%;
+	table-layout: fixed;
+}
+
+td {
+	text-align: center;
+	background-color: red;
+}
+	
+td.on {
+	background-color: green;
+}
