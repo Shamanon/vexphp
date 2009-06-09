@@ -1,20 +1,20 @@
 <?php
-/* SVN FILE: $Id: vexControl.php 16 2009-06-09 08:39:51Z besneatte $ */
+/* SVN FILE: $Id$ */
 /*
  *
  * Project Name : vexphp
  *
- * $copyright$
+ * $Copyright$
  *
- * $license$
+ * $License$
  *
  * @package vexControl
- * @author $Author: besneatte $
- * @version $Revision: 16 $
- * @lastrevision $Date: 2009-06-09 01:39:51 -0700 (Tue, 09 Jun 2009) $
- * @modifiedby $LastChangedBy: besneatte $
- * @lastmodified $LastChangedDate: 2009-06-09 01:39:51 -0700 (Tue, 09 Jun 2009) $
- * @filesource $URL: https://vexphp.googlecode.com/svn/trunk/vexControl.php $
+ * @author $Author$
+ * @version $Revision$
+ * @lastrevision $Date$
+ * @modifiedby $LastChangedBy$
+ * @lastmodified $LastChangedDate$
+ * @filesource $URL$
  *
  */
  
