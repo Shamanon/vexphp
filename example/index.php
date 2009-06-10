@@ -1,3 +1,23 @@
+<?php
+/* SVN FILE: $Id$ */
+/*
+ *
+ * Project Name : vexphp
+ *
+ * $Copyright$
+ *
+ * $License$
+ *
+ * @package vexControl example code
+ * @author $Author$
+ * @version $Revision$
+ * @lastrevision $Date$
+ * @modifiedby $LastChangedBy$
+ * @lastmodified $LastChangedDate$
+ * @filesource $URL$
+ *
+ */
+ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -50,15 +70,15 @@
 			<? 
 			$y = 13;
 			for($i=0;$i < $y; $i++){ 
-				?><input type="radio" name="move_y" value="true" onclick="output('motor',0,'<?=round(255/($y-1))*$i?>')"><br /><?
+				?><input type="radio" name="move_y" value="true" onclick="output('motor',0,'<?=round((255/($y-1))*$i)?>')"><br /><?
 			}
 			?>
 		</div>
 		<div id="move_x">
 			<? 
 			$x = 13;
-			for($i=$x;$i > 0; $i--){ 
-				?><input type="radio" name="move_x" value="true" onclick="output('motor',1,'<?=round(255/($x-1))*$i?>')"> <?
+			for($i=$x;$i >= 0; $i--){ 
+				?><input type="radio" name="move_x" value="true" onclick="output('motor',1,'<?=round((255/($x))*$i)?>')"> <?
 			}
 			?>
 		</div>
